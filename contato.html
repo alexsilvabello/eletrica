@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <div style="width: 100%">
+        <img src="img/topo.jpg" alt="topo" style='width: 100%' height='100%'>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbar-fixed/">
+        <link rel="stylesheet" href="./estilo/reset.css">
+        <link rel="stylesheet" href="./estilo/contato.css">
+        <link href="./estilo/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./estilo/install.css" type="text/css" />
+        <link href="./estilo/navbar-top-fixed.css" rel="stylesheet">
+        <link rel="stylesheet" href="./estilo/footer.css">
+    </div>
+
+    <title>Serviços de Marido de aluguel e Eletricista.</title>
+</head>
+
+<body>    
+    <main>
+        <nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/index">Início</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse" id="navbarsExample02">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/servicos">Serviços</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="/contato">Contato</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </main>
+   <section class="contact section" id="contact">
+    <h2 class="section_title contac">Peça um orçamento sem compromisso.</h2>
+    <span class="section_subtitle contac">Entrar em contato</span>
+
+    <div class="contact_container container grid">
+        <div>
+            <span class="contact_subtitle">Contatos clicaveis</span>
+
+            <div class="contact_information">
+                <i class="uil uil-whatsapp contact_icon"></i>
+                <div>
+                    <h3 class="contact_title">Whatsapp</h3>
+                    <span class="contact_subtitle">
+                        <a href="https://wa.me/5521988027028" target="_blank"
+                            class="contact_whatsapp">+55 (21) 98802-7028</a>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact_information">
+                <i class="uil uil-envelope contact_icon"></i>
+       <div>
+                    <h3 class="contact_title">Email</h3>
+                    <span class="contact_subtitle">
+                        <a href="mailto:eletrica.rio.br@gmail.com" class="contact_whatsapp">
+                            eletrica.rio.br@gmail.com
+                        </a>
+                    </span>
+                </div>
+              </div>
+        </div>
+
+        <form method="get" class="contact_form grid">
+            <div class="contact_inputs grid">
+                <div class="contact_content">
+                    <label for="name" class="contact_label name">Nome</label>
+                    <input type="text" name="name" id="name" class="contact_input" required>
+                </div>
+
+                <div class="contact_content">
+                    <label for="mail" class="contact_label email">Email</label>
+                    <input type="email" name="EMAIL" id="mail" class="contact_input" required>
+                </div>
+
+                <div class="contact_content">
+                    <label for="tl" class="contact_label title">Telefone</label>
+                    <input type="text" name="PROJECT" id="tl" class="contact_input" required>
+                </div>
+
+
+                <div class="contact_content">
+                    <label for="ms" class="contact_label desc">Descrição</label>
+                    <textarea name="MESSAGE" id="ms" style='resize: none;' cols="0" rows="7" spellcheck='true'
+                        maxlength="3000" class="contact_input" style="resize: none" required></textarea>
+                </div>
+                <div class="button-enviar--mensagem">
+                    <a href="" target="_blank" class="button button-flex enviarMensagem" style="color: black;">
+                        Enviar mensagem
+                        <i class="uil uil-message button_icon" style="color: rgb(0, 0, 0);"></i>
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+<script src="./js/script.js"></script>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">&copy;2017-2022 <a href="./index.html#menu">eletrica.rio.br</a> <br> &nbsp;Serviços e Reparos</p>
+            <br>
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="/index" class="nav-link px-2 text-muted">Início</a></li>
+            <li class="nav-item"><a href="/servicos" class="nav-link px-2 text-muted">Serviços</a></li>
+            <li class="nav-item"><a href="/contato" class="nav-link px-2 text-muted">Contato</a></li>
+          </ul>
+        </footer>
+      </div>
+
+</body>
+
+</html>
